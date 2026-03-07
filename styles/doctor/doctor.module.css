@@ -1,0 +1,243 @@
+.container{
+    width: 100%;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 40% 58%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 4rem;
+}
+
+.left{
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.left .image{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 30rem;
+}
+
+.left .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.left .image img:hover{
+    transform: scale(1.05);
+}
+
+.left .details{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.left .details .name{
+    font-size: var(--font-size-normal);
+    color: var(--light-high);
+    font-weight: 700;
+
+}
+
+.left .details .links{
+    display:flex ;
+    gap: 1rem;
+}
+
+
+.left .details .links .icon{
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.left .details .links .icon:hover{
+    opacity: 0.8;
+}
+
+.left .details .links .icon:active{
+    opacity: 1;
+}
+
+
+.left .details .links a{
+    font-size: var(--font-size-normal);
+    color: white;
+}
+
+.left .specialty{
+    font-size: var(--font-size-small);
+    margin-top: 0.6rem;
+    opacity: 0.8;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.left .specialty .icon{
+    color: var(--primary);
+}
+
+.left .stats,
+.right .stats{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: solid 1px;
+    padding-bottom: 2rem;
+    border-color: rgba(215, 207, 207, 0.854);
+}
+
+.stats .leftitem,
+.stats .right{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0;
+    font-size: var(--font-size-small);
+}
+
+.stats .leftitem .top,
+.stats .right .top{
+    font-weight: 700;
+}
+
+.plus{
+    color: var(--primary);
+}
+
+.stats .bottom{
+    font-size: var(--font-size-small);
+}
+
+.left .available{
+    margin-top: 2rem;
+    font-size: var(--font-size-small);
+    opacity: 0.8;
+}
+
+.left .available .heading{
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color:var(--light-high);
+    font-size: var(--font-size-normal);
+}
+  
+
+.contact .heading{
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: var(--light-high);
+    font-size: var(--font-size-normal);
+}
+
+.left .contact .phonenumber,
+.left .contact .email{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.left .contact .phonenumber .icon,
+.left .contact .email .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: var(--primary);
+    border-radius: 50%;
+    color: white;
+}
+
+.left .contact .phonenumber .icon:hover,
+.left .contact .email .icon:hover{
+    opacity: 0.8;
+}
+
+.left .contact a{
+    text-decoration: none;
+    color: var(--light-high);
+    font-size: var(--font-size-small);
+
+}
+
+.button{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.button button{
+    background-color: var(--light-high);
+    border: none;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: var(--font-size-normal);
+}
+
+
+.right .title{
+    font-size: var(--font-size-h5);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--light-high);
+}
+
+.right p{
+    font-size: var(--font-size-normal);
+    margin-bottom: 2rem;
+}
+
+.list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.list ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: var(--font-size-small);
+}
+
+.list .icon{
+    color: white;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--primary);
+}
+

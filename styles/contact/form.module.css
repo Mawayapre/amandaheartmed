@@ -1,0 +1,96 @@
+.container{
+    margin-bottom: 10rem;
+}
+
+.wrapper{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.title{
+    font-size: var(--font-size-h3);
+    color: var(--light-high);
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.heading{
+    font-size: var(--font-size-large);
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--body);
+    margin-bottom: 4rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form input{
+    border-radius: 10px;
+    border: solid 2px var(--primary);
+    padding:2rem 1rem;
+    font-size: var(--font-size-large);
+    color: var(--body);
+    background-color: transparent;
+    outline: none;
+   
+}
+
+.form input:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form input:focus{
+    border-color:var(--light-high);
+
+}
+
+.form textarea{
+    max-width: 100%;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: solid 2px var(--primary);
+    padding:2rem 1rem;
+    font-size: var(--font-size-large);
+    color: var(--body);
+    background-color: transparent;
+    outline: none;
+    overflow-y: hidden;
+    min-height: 5rem;
+    min-width: 100%;
+    font-family: var(----font-roboto);
+}
+
+.form textarea:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form textarea:focus{
+    border-color:var(--light-high);
+}
+
+
+.form .submit{
+   background-color: var(--primary);
+   color: white;
+   font-size: var(--font-size-h4);
+}
+
+.form .submit:hover{
+    opacity: 0.8;
+}
+
+.form .submit:active{
+    opacity: 1;
+}

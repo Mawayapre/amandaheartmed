@@ -1,0 +1,126 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.title{
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    text-align: center;
+    color: var(--light-high);
+}
+
+.heading{
+    color: var(--body);
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: var(--font-size-h2);
+}
+
+.cards{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(28rem, 1fr));
+    margin-top: 15rem;
+    gap:2rem;
+    row-gap: 15rem;
+}
+
+.card{
+    background-color: #009faa1e;
+    border-radius: 10px;
+    max-width: 30rem;
+    position: relative;
+    height: auto;
+    max-height: 40rem;
+    padding-top: 12rem;
+    padding-bottom: 2rem;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover{
+    background-color:#009faa5f ;
+}
+
+.card:hover .image img{
+    transform: scale(1.1);
+}
+
+.image{
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
+    height: 18rem;
+    border: solid 10px var(--bgcolor);
+    width: 18rem;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.image img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.specialty{
+    text-align: center;
+    font-size: var(--font-size-small);
+}
+
+.name{
+    text-align: center;
+    font-size: var(--font-size-normal);
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.rating{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    font-size: var(--font-size-normal);
+    margin: 0 auto;
+    gap:0.5rem;
+    margin-top: 1rem;
+}
+
+.icon{
+    color: var(--primary);
+}
+
+.link{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
+.link a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--primary);
+    font-size: var(--font-size-small);
+    transition: 0.2s ease-in-out;
+}
+
+.link a:hover{
+    gap: 1rem;
+    opacity: 0.9;
+    color: var(--body);
+}
+.link a:active{
+    gap: 0.5rem;
+    opacity: 1;
+    color: var(--primary);
+}

@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.wrapper{
+    
+}
+.topsection{
+    width: 100%;
+    background-color: #009faa1c;
+    padding: 8rem 8rem;
+}
+
+.topsection a{
+    text-decoration: none;
+    color: var(--body);
+    font-size: var(--font-size-h4);
+    transition: 0.2s ease-in-out;
+}
+
+.topsection a:hover{
+    opacity: 0.9;
+}
+.topsection a:active{
+    opacity: 1;
+}
+
+.topsection .title{
+    font-size: var(--font-size-h3);
+    color: var(--light-high);
+    font-weight: 700;
+}
+
+.topsection .main{
+    font-size: var(--font-size-large);
+    margin-top: 1rem;
+    font-size: var(--font-size-h4);
+}
+
+.topsection .slash{
+    font-size: var(--font-size-h3);
+}
+
+.topsection .aboutus{
+    color: var(--primary);
+    font-size: var(--font-size-h4);
+}

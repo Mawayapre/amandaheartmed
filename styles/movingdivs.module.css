@@ -1,0 +1,110 @@
+.container {
+  width: 90%;
+  margin: 10rem auto 0;
+  overflow: hidden;
+  color: var(--primary);
+  padding-bottom: 5rem;
+}
+
+
+.container:hover .cards {
+  animation-play-state: paused;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;                 
+  width: max-content;         
+  animation: scroll 25s linear infinite;
+  will-change: transform;     
+}
+
+
+.card {
+  width: 24rem;               
+  height: 10rem;
+  color: var(--body);
+  background: white;
+  border-radius: 5px;
+  font-size: var(--font-size-large);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem;
+  box-sizing: border-box;    
+  flex-shrink: 0;            
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card .link a{
+    display: flex;
+    gap: 0.5rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    color: var(--primary);
+    transition: 0.3s ease-in-out;
+}
+
+.card .link a:hover{
+  color: var(--body);
+}
+.card .link a:active{
+  color: var(--primary);
+}
+
+.button{
+    background-color: var(--primary);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 5px;
+    
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  background-color: var(--primary); 
+  border: none;
+  padding: 1rem;
+  color: white;
+  font-size: var(--font-size-normal);
+  gap: 0.5rem;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover{
+    gap: 1rem;
+    opacity: 0.8;
+}
+
+.btn:active{
+  gap: 0.5rem;
+  opacity: 1;
+}
+
+
+.link a{
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-small);
+}
+
+
+.card * {
+  white-space: nowrap;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - 1rem));
+  }
+}

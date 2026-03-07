@@ -1,0 +1,132 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+.heading{
+    font-size:var(--font-size-h3);
+    font-weight: 700;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    opacity: 0;
+  }
+  
+  .answer.open {
+    max-height: 500px;
+    opacity: 1;
+  }
+  
+  .answer.closed {
+    max-height: 0;
+    opacity: 0;
+  }
+
+  .wrapper{
+    background-color: rgba(92, 92, 88, 0.228);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1.5rem;
+    margin-bottom:2rem;
+    position: relative;
+  }
+
+  .icon{
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+    transition: .5s all;
+    color: var(--primary);
+  }
+
+  .title{
+    font-size: var(--font-size-large);
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .answer{
+    font-size: var(--font-size-small);
+    width: 90%;
+  }
+
+  .emailcontainer{
+    width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+  }
+
+  .emailcontainer .wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .emailcontainer .wrapper .text{
+    font-size: var(--font-size-h4);
+    color: var(--bg-purple);
+    font-weight: 700;
+    margin-bottom: 3rem;
+  }
+
+  .emailcontainer .wrapper div:hover{
+    transform: translateY(-2px);
+  }
+  .emailcontainer .wrapper div:active{
+    transform: translateY(0);
+  }
+
+
+  .emailcontainer .wrapper a{
+    text-decoration: none;
+    font-size: var(--font-size-small);
+    padding: 1rem;
+    border-radius: 10px;
+    color:var(--light-high);
+  }
+
+
+  @media(max-width:64rem){
+    .heading{
+      margin-top: 5rem;
+    }
+
+}
+  @media(max-width:37rem){
+    .heading{
+      width: 90%;
+      text-align: center;
+    }
+
+    .title{
+      width: 90%;
+    }
+    .container{
+      width: 95%;
+      padding-bottom: 1rem;
+    }
+     .emailcontainer{
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+
+   }
+    .emailcontainer .wrapper{
+      width: 95%;
+    }
+    .emailcontainer .wrapper .text{
+    margin-bottom: 2rem;
+  }
+
+}
+
+  

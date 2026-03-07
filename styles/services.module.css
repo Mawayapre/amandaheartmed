@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    padding-top: 8rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: var(--font-size-h4);
+    font-weight: 700;
+    text-align: center;
+    color: var(--primary);
+}
+
+.paragraph{
+    font-size: var(--font-size-h2);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4rem;
+    font-weight: 700;
+}
+
+@media(max-width:56rem){
+    :root{
+        font-size: 56.25%;
+    }
+    .paragraph{
+        width: 80%;
+    }
+}
+
+@media(max-width:37rem){
+    .paragraph{
+        width: 90%;
+    }
+
+}

@@ -1,0 +1,130 @@
+.container{
+    background-color: var(--light-high);
+    margin-top: 5rem;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 48% 48%;
+}
+
+.left{
+    background-color: white;
+    border-radius: 10px;
+    padding: 3rem;
+    color: var(--body);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    width: 80%;
+}
+
+.left .title{
+    font-size: var(--font-size-h4);
+    font-weight: 700;
+    text-align: center;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.list ul li{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: var(--font-size-normal);
+}
+
+.icon{
+    display: inline;
+    /* background-color: var(--primary); */
+    border: solid;
+    border-color: var(--primary);
+    border-width: 2px;
+    color: var(--primary);
+    border-radius: 50%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    padding-top: 4rem;
+    
+}
+
+.right .heading{
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+}
+
+.right .para{
+    font-size: var(--font-size-large);
+    font-weight: 100;
+    line-height: 2.5rem;
+}
+
+.right .link{
+    /* background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 4rem; */
+}
+
+.right .link a{
+    background-color: var(--primary);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: var(--font-size-large);
+    gap: 0.5rem;
+    transition: 0.2s ease-in-out;
+}
+
+.right .link a:hover{
+    gap: 1rem;
+}
+
+@media(max-width:56rem){
+    :root{
+        font-size: 56.25%;
+    }
+
+    .wrapper{
+        width: 90%;
+    }
+}
+
+@media(max-width:37rem){
+    .wrapper{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        
+    }
+    .left{
+        width: 100%;
+    }
+}
+    
+
