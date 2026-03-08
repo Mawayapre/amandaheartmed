@@ -160,6 +160,7 @@
 
     .container .left .description{
         text-align: center;
+        font-size: var(--font-size-h2);
     }
 
     .modal{

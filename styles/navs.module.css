@@ -66,7 +66,6 @@
     display: none;
 }
 
-/* Mobile menu */
 .mobile {
     position: fixed;
     top: 0;
@@ -92,6 +91,7 @@
     font-weight: 700;
     color: var(--bgcolor);
     margin-bottom: 4rem;
+    opacity: 0;
 }
 
 .mobile .links {
@@ -175,6 +175,7 @@
     font-size: var(--font-size-h4);
     font-weight: 700;
     color: var(--light-high);
+    z-index: 9999999;
 }
 
 .menu button {

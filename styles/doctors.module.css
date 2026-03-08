@@ -127,8 +127,9 @@
 
 
 @media(max-width:56rem){
-    :root{
-        font-size: 56.25%;
+
+    .card{
+        padding-top: 10rem;
     }
 }
 
@@ -136,6 +137,8 @@
     .cards{
         grid-template-columns: 1fr;
     }
+
+    .card{}
 
     .heading{
         width: 100%;
