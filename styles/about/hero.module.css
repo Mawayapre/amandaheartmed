@@ -13,7 +13,6 @@
 
 .paragraph{
     font-size: var(--font-size-large);
-    text-align: center;
     margin-top: 4rem;
     line-height: 1.5;
 }
@@ -65,6 +64,8 @@
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+    justify-content: center;
+    text-align: center;
 }
 
 .top{
@@ -82,4 +83,29 @@
 
 .bottom{
     font-size: var(--font-size-normal);
+}
+
+
+@media(max-width:56rem){
+    .text{
+        width: 80%;
+    }
+
+    .stats{
+        width: 80%;
+    }
+}
+
+@media(max-width:37rem){
+    .text{
+        width: 90%;
+    }
+
+    .stats{
+        width: 90%;
+    }
+    .image{
+        height: 30rem;
+        width: 90%;
+    }
 }

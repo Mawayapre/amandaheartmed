@@ -1,6 +1,5 @@
 .container{
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
@@ -10,6 +9,7 @@
     font-weight: 700;
     text-align: center;
     color: var(--light-high);
+    margin-bottom: 2rem;
 }
 
 .heading{
@@ -22,6 +22,7 @@
 }
 
 .cards{
+    width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(28rem, 1fr));
@@ -33,7 +34,7 @@
 .card{
     background-color: #009faa1e;
     border-radius: 10px;
-    max-width: 30rem;
+    max-width:40rem;
     position: relative;
     height: auto;
     max-height: 40rem;
@@ -123,4 +124,31 @@
     gap: 0.5rem;
     opacity: 1;
     color: var(--primary);
+}
+
+
+@media(max-width:56rem){
+
+    .card{
+        padding-top: 10rem;
+    }
+}
+
+@media(max-width:37rem){
+
+    .container{
+        padding-top: 2rem;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+        padding-top: ;
+        margin-top: 12rem;
+    }
+
+    .card{}
+
+    .heading{
+        width: 100%;
+    }
+
 }

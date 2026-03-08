@@ -30,7 +30,7 @@
 
 .card{
     display: flex;
-    max-width: 30rem;
+    width: 30rem;
     min-width: 28rem;
     align-items: center;
     justify-content: center;
@@ -88,4 +88,19 @@
 .card a{
     text-decoration: none;
     color: var(--body);
+}
+
+@media(max-width:65rem){
+    .title{
+        width: 80%;
+    }
+}
+
+@media(max-width:37rem){
+    .title{
+        width: 90%;
+    }
+    .card{
+        width: 100%;
+    }
 }

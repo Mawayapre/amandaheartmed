@@ -144,7 +144,7 @@
     }
 
     .wrapper{
-        position:static;;
+        position:static;
     }
     .container{
         grid-template-columns: 1fr;
@@ -164,7 +164,7 @@
     }
 
     .modal{
-        top: 140%;
+        top: 120%;
         left: 20%;
         transform: translate(-50%, -50%);
         flex-direction: column;
@@ -177,14 +177,14 @@
 
 
   @media(max-width:37rem){
-   
+
     .container .left .title{
         width: 90%;
         margin: 0 auto;
         margin-bottom: 4rem;
     }
     .modal{
-        top: 130%;
+        top: 65%;
         left: 20%;
         transform: translate(-50%, -50%);
         flex-direction: column;
@@ -195,9 +195,9 @@
     }
   }
 
-  @media(max-width:29rem){
+  @media(max-width:35rem){
     .modal{
-        top: 140%;
+        top: 65%;
         left: 20%;
         transform: translate(-50%, -50%);
         flex-direction: column;
@@ -205,12 +205,13 @@
         justify-content: center;
         text-align: center;
         padding:1rem;
-    } 
- }
+    }
+
+  }
 
   @media(max-width:23rem){
     .modal{
-        top: 160%;
+        top: 90%;
         left: 20%;
         transform: translate(-50%, -50%);
         padding:1rem;

@@ -6,7 +6,7 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 import Image from 'next/image';
 
 
-const ITEM_WIDTH = 600; 
+const ITEM_WIDTH = 200; 
 
 const Testimonials = () => {
     const containerRef = useRef(null)

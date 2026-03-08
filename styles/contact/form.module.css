@@ -94,3 +94,24 @@
 .form .submit:active{
     opacity: 1;
 }
+
+@media(max-width:65rem){
+    .wrapper{
+        width: 80%;
+    }
+    .heading{
+        width: 80%;
+    }
+}
+
+@media(max-width:37rem){
+    .container{
+        margin-bottom: 0rem;
+    }
+    .wrapper{
+        width: 90%;
+    }
+    .heading{
+        width: 90%;
+    }
+}

@@ -95,3 +95,21 @@
     transform: scale(1.05);
    
 }
+
+
+@media(max-width:65rem){
+    .cards{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:37rem){
+    .container{
+        width: 90%;
+        padding-top: 5rem;
+    }
+
+    .cards{
+        padding-top: 2rem;
+    }
+}

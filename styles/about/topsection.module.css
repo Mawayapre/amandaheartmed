@@ -1,6 +1,5 @@
 .container{
     width: 100%;
-    padding: 2rem 0;
 }
 
 .wrapper{
@@ -45,4 +44,24 @@
 .topsection .aboutus{
     color: var(--primary);
     font-size: var(--font-size-h4);
+}
+
+@media(max-width:56rem){
+    .topsection{
+        padding: 4rem 4rem;
+    }
+
+    .topsection .title{
+        font-size: var(--font-size-h4);
+    }
+
+    .topsection .main{
+        font-size: var(--font-size-normal)
+    }
+}
+
+@media(max-width:37rem){
+    .topsection{
+        padding: 2rem 1rem;
+    }
 }
