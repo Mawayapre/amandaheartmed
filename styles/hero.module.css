@@ -183,6 +183,13 @@
         margin: 0 auto;
         margin-bottom: 4rem;
     }
+
+    .wrapper{
+        padding: 0;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 5rem;
+    }
     .modal{
         top: 65%;
         left: 20%;
@@ -192,6 +199,10 @@
         justify-content: center;
         text-align: center;
         padding:1rem;
+    }
+
+    .container .left .more{
+        justify-content: space-between;
     }
   }
 
