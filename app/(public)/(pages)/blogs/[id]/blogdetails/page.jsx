@@ -1,5 +1,5 @@
 import React from 'react'
-import TopSection from './components/topsection'
+import TopSection from '../components/topsection'
 function Page() {
   return (
     <div>
