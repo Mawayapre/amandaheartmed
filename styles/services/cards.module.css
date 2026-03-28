@@ -1,0 +1,76 @@
+.container {
+    width: 100%;
+    padding-bottom: 10rem;
+}
+
+
+.container .title{
+    font-size: var(--font-size-h2);
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card .title .icon{
+    font-size: var(--font-size-large);
+    color: var(--body);
+}
+
+.container .heading{
+    color: var(--body);
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: var(--font-size-large);
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(28rem, 1fr));
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    gap:2rem;
+}
+
+.card{
+    box-shadow: rgba(149, 157, 165, 0.471) 0px 8px 24px;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.card .title{
+    font-size: var(--font-size-large);
+    margin-top: 0.5rem;
+    color: var(--primary);
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.card .description{
+    font-size: var(--font-size-normal);
+    margin-bottom: 2rem;
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+    height: fit-content;
+}
+
+.more a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    font-size: var(--font-size-small);
+    color: var(--heading-colo);
+}

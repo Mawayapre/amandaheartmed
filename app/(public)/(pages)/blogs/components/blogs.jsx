@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../../../../styles/blogs.module.css'
+import styles from '../../../../../styles/blogs/blogs.module.css'
 import Link from 'next/link'
 import { FaArrowRight,FaCalendarDays,FaPencilAlt } from "react-icons/fa6";
 import { RiVerifiedBadgeFill } from "react-icons/ri";

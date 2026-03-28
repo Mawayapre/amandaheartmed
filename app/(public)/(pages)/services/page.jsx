@@ -1,8 +1,13 @@
 import React from 'react'
+import TopSection from './components/topsection'
+import Cards from './components/cards'
 
 const Page = () => {
   return (
-    <div>Page</div>
+    <div>
+      <TopSection />
+      <Cards />
+    </div>
   )
 }
 
