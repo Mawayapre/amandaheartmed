@@ -4,11 +4,15 @@ import styles from '../../../styles/navs.module.css'
 import { usePathname } from "next/navigation"
 import Link from 'next/link'
 import { IoMdClose, IoMdMenu } from "react-icons/io";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Navs = () => {
     const pathname = usePathname();
     const [menuOpen, setMenuOpen] = useState(false);
+
+    useEffect(() => {
+        setMenuOpen(false);
+    }, [pathname]);
 
     const handleHamburger = () => {
         setMenuOpen(prev => !prev);
@@ -21,7 +25,7 @@ const Navs = () => {
                     Amanda
                 </div>
                 <button onClick={handleHamburger}>
-                {menuOpen ? <IoMdClose size={30}/> : <IoMdMenu size={30} />}
+                    {menuOpen ? <IoMdClose size={30}/> : <IoMdMenu size={30} />}
                 </button>
             </div>
 

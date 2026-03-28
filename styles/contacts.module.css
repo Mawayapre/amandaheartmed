@@ -49,8 +49,14 @@
     color: var(--body);
 }
 
+@media (max-width: 48rem) {
+    .contacts {
+        display: none;
+    }
 
-@media(max-width:40rem){
+}
+
+/* @media(max-width:40rem){
     .left{
         margin: 0 auto;
     }
@@ -65,4 +71,4 @@
     .contacts{
         display: none;
     }
-}
+} */

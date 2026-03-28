@@ -92,10 +92,12 @@
     color: var(--bgcolor);
     margin-bottom: 4rem;
     opacity: 0;
+    
 }
 
 .mobile .links {
     margin-bottom: 4rem;
+    
 }
 
 .mobile .links ul {
@@ -103,9 +105,14 @@
     flex-direction: column;
     list-style: none;
     font-size: var(--font-size-normal);
-    gap: 1rem;
+    gap: 2rem;
     margin: 0;
     padding: 0;
+}
+
+.mobile .links ul li{
+    border-bottom: solid 2px rgba(256, 256, 256, .5);
+    padding-bottom: 2rem;
 }
 
 .mobile .links ul li a {
@@ -126,7 +133,7 @@
     font-size: var(--font-size-normal);
     color: white;
     background-color: var(--light-high);
-    padding: 0.8rem;
+    padding: 1rem;
     border-radius: 5px;
     transition: 0.1s ease-in-out;
 }

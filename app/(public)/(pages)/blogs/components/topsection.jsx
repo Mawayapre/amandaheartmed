@@ -2,6 +2,8 @@ import React from 'react'
 import styles from '../../../../../styles/about/topsection.module.css'
 import Link from 'next/link'
 import Doctors from './../../about/componets/doctors';
+import { MdHome } from "react-icons/md";
+
 
 const TopSection = () => {
   return (
@@ -13,7 +15,11 @@ const TopSection = () => {
                 </div>
 
                 <div className={styles.main}>
-                    <Link href='/'> Home </Link>
+                    <Link href='/'> 
+                    <Link href='/'> 
+                    <MdHome size={30}/>
+                     </Link>
+                     </Link>
                     <span className={styles.slash}> /</span><span className={styles.aboutus}> Blogs </span>
                 </div>
             </div>

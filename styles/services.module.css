@@ -25,9 +25,6 @@
 }
 
 @media(max-width:56rem){
-    :root{
-        font-size: 56.25%;
-    }
     .paragraph{
         width: 80%;
     }
