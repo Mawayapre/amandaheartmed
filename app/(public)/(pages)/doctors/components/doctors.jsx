@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import styles from '../../../styles/doctors.module.css'
+import styles from '../../../../../styles/doctor/doctors.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaArrowRight } from "react-icons/fa6";
@@ -43,13 +43,8 @@ const Doctors = () => {
   return (
     <div className={styles.container}>
         <div className={styles.title}>
-            Our Doctors
+            Doctors
         </div>
-
-        <div className={styles.heading}>
-        Get service Our Quality Doctors
-        </div>
-
         <div className={styles.wrapper}>
             <div className={styles.cards}>
                 {
@@ -91,8 +86,17 @@ const Doctors = () => {
                     ))
                 }
             </div>
+        </div>
 
-            <Link className={styles.seeall}  href={'/doctors'}>See All Doctors <FaArrowRight /></Link>
+
+        <div className={styles.availability}>
+        <div className={styles.title}>
+            Doctor Availability
+        </div>
+
+        <Link href='/#'>
+            View Doctors' Schedule
+        </Link>
         </div>
         
     </div>

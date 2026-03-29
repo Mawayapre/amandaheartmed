@@ -78,7 +78,7 @@ const Services = () => {
                     </div>
 
                     <div className={styles.more}>
-                        <Link href='#'>Learn More 
+                        <Link href='/services/services'>Learn More 
                         <FaArrowRight size={14}/>
                         </Link>
                     </div>

@@ -17,7 +17,6 @@ const Navs = () => {
     const handleHamburger = () => {
         setMenuOpen(prev => !prev);
     }
-
     return (
         <div className={styles.header}>
             <div className={styles.menu}>
@@ -39,7 +38,8 @@ const Navs = () => {
                         <li><Link href="/" className={pathname === "/" ? styles.active : ""}>Home</Link></li>
                         <li><Link href="/about" className={pathname === "/about" ? styles.active : ""}>About</Link></li>
                         <li><Link href="/contact" className={pathname === "/contact" ? styles.active : ""}>Contact</Link></li>
-                        <li><Link href="/blogs" className={pathname === "/blogs" ? styles.active : ""}>Blog</Link></li>
+                        <li><Link href="/doctors" className={pathname === "/doctors" ? styles.active : ""}>Doctors</Link></li>
+                        <li><Link href="/blogs" className={pathname === "/blogs" ? styles.active : ""}>Blogs</Link></li>
                         <li><Link href="/services" className={pathname === "/services" ? styles.active : ""}>Services</Link></li>
                     </ul>
                 </div>
@@ -66,6 +66,7 @@ const Navs = () => {
                             <li><Link href="/" className={pathname === "/" ? styles.active : ""}>Home</Link></li>
                             <li><Link href="/about" className={pathname === "/about" ? styles.active : ""}>About</Link></li>
                             <li><Link href="/contact" className={pathname === "/contact" ? styles.active : ""}>Contact</Link></li>
+                            <li><Link href="/doctors" className={pathname === "/doctors" ? styles.active : ""}>Doctors</Link></li>
                             <li><Link href="/blogs" className={pathname === "/blogs" ? styles.active : ""}>Blog</Link></li>
                             <li><Link href="/services" className={pathname === "/services" ? styles.active : ""}>Services</Link></li>
                         </ul>

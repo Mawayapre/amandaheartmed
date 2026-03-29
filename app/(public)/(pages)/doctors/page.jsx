@@ -1,8 +1,13 @@
 import React from 'react'
+import Doctors from './components/doctors'
+import TopSection from './components/topsection'
 
 const Page = () => {
   return (
-    <div>Page</div>
+    <div>
+      <TopSection />
+      <Doctors />
+    </div>
   )
 }
 

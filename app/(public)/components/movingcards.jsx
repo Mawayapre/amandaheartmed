@@ -22,7 +22,7 @@ const MovingCards = () => {
             ECG & Cardiac ECHO  
             </div>
             <div className={styles.link}>
-            <Link href='#'>Learn More 
+            <Link href='/services/service'>Learn More 
             <FaArrowRight size={14}/>
             </Link>
             </div>
@@ -35,7 +35,7 @@ const MovingCards = () => {
             Advanced Cardiac Care  
             </div>
             <div className={styles.link}>
-            <Link href='#'>Learn More 
+            <Link href='/services/service'>Learn More 
             <FaArrowRight size={14}/>
             </Link>
             </div>
@@ -48,7 +48,7 @@ const MovingCards = () => {
             Fully Equipped Laboratory  
             </div>
             <div className={styles.link}>
-            <Link href='#'>Learn More 
+            <Link href='/services/service'>Learn More 
             <FaArrowRight size={14}/>
             </Link>
             </div>
@@ -61,7 +61,7 @@ const MovingCards = () => {
             In-house Pharmacy  
             </div>
             <div className={styles.link}>
-            <Link href='#'>Learn More 
+            <Link href='/services/service'>Learn More 
             <FaArrowRight size={14}/>
             </Link>
             </div>
@@ -76,7 +76,7 @@ const MovingCards = () => {
             ECG & Cardiac ECHO  
             </div>
             <div className={styles.link}>
-            <Link href='#'>Learn More 
+            <Link href='/services/service'>Learn More 
             <FaArrowRight size={14}/>
             </Link>
             </div>
@@ -89,7 +89,7 @@ const MovingCards = () => {
             Advanced Cardiac Care  
             </div>
             <div className={styles.link}>
-            <Link href='#'>Learn More 
+            <Link href='/services/service'>Learn More 
             <FaArrowRight size={14}/>
             </Link>
             </div>
@@ -102,7 +102,7 @@ const MovingCards = () => {
             Fully Equipped Laboratory  
             </div>
             <div className={styles.link}>
-            <Link href='#'>Learn More 
+            <Link href='/services/service'>Learn More 
             <FaArrowRight size={14}/>
             </Link>
             </div>
@@ -115,7 +115,7 @@ const MovingCards = () => {
             In-house Pharmacy  
             </div>
             <div className={styles.link}>
-            <Link href='#'>Learn More 
+            <Link href='/services/service'>Learn More 
             <FaArrowRight size={14}/>
             </Link>
             </div>
