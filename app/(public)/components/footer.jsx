@@ -15,7 +15,7 @@ const Footer = () => {
 
         <div className={styles.appointment}>
         <p> Get Appointment For Your <br /> Medical Services </p>
-        <Link href='/#'>Book Appointment</Link>
+        <Link href='/appointment'>Book Appointment</Link>
         </div>
         <div className={styles.wrapper}>
           <div className={styles.section1}>

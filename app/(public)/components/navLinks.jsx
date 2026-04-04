@@ -1,17 +1,19 @@
 'use client'
 
 import styles from '../../../styles/navs.module.css'
-import { usePathname } from "next/navigation"
+import { usePathname, useRouter } from "next/navigation"
 import Link from 'next/link'
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import { useState, useEffect } from 'react';
 
 const Navs = () => {
     const pathname = usePathname();
+    const router = useRouter();
     const [menuOpen, setMenuOpen] = useState(false);
 
     useEffect(() => {
         setMenuOpen(false);
+        window.scrollTo(0, 0);
     }, [pathname]);
 
     const handleHamburger = () => {
@@ -45,7 +47,7 @@ const Navs = () => {
                 </div>
 
                 <div className={styles.appointment}>
-                    <Link href="#">Book Appointment</Link>
+                    <Link href="/appointment">Book Appointment</Link>
                 </div>
             </div>
 
@@ -73,7 +75,7 @@ const Navs = () => {
                     </div>
 
                     <div className={styles.appointment}>
-                        <Link href="#">Book Appointment</Link>
+                        <Link href="/appointment">Book Appointment</Link>
                     </div>
                 </div>
             </div>

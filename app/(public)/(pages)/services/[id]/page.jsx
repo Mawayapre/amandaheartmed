@@ -3,11 +3,11 @@ import styles from '../../../../../styles/services/servicedetails.module.css'
 import TopSection from './components/topsection';
 import Service from './components/service';
 
-const Page = () => {
+const Page = ({ params }) => {
   return (
     <div className={styles.container}>
-        <TopSection />
-        <Service />
+        <TopSection params={params} />
+        <Service params={params} />
     </div>
   )
 }

@@ -75,7 +75,7 @@
     background-color: var(--primary);
     z-index: 999;
     transform: translateX(-100%);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile.open {
@@ -196,7 +196,8 @@
     padding: 0.5rem;
     cursor: pointer;
     font-size: var(--font-size-h4);
-    transition: 0.2s ease-in-out;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: center;
 }
 
 .menu button:hover {

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from '../../../../../styles/services/cards.module.css'
 import { FaHeartbeat, FaStethoscope, FaUserMd, FaHospital, FaArrowRight } from "react-icons/fa";
 import { MdMonitorHeart } from "react-icons/md";
-import { GiMedicines } from "react-icons/gi";
+// import { GiMedicines } from "react-icons/gi";
 import { TbTestPipe } from "react-icons/tb";
 import { RiMentalHealthLine } from "react-icons/ri";
 
@@ -30,11 +30,11 @@ const Services = () => {
           icon: TbTestPipe,
           description: "Our fully equipped laboratory provides a wide range of diagnostic tests..."
         },
-        {
-          title: "Pharmacy Services",
-          icon: GiMedicines,
-          description: "Our in-house pharmacy ensures quick and convenient access to medications..."
-        },
+        // {
+        //   title: "Pharmacy Services",
+        //   icon: GiMedicines,
+        //   description: "Our in-house pharmacy ensures quick and convenient access to medications..."
+        // },
         {
           title: "Hospital Admission",
           icon: FaHospital,
