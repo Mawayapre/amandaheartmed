@@ -4,20 +4,22 @@ import Link from 'next/link'
 import { MdHome } from "react-icons/md";
 
 
-const TopSection = () => {
+const TopSection = ({ doctor }) => {
+  const name = doctor?.name || 'Doctor'
+
   return (
     <div className={styles.container}>
         <div className={styles.wrapper}>
             <div className={styles.topsection}>
                 <div className={styles.title}>
-                    Dr. Precious Mawaya
+                    {name}
                 </div>
 
                 <div className={styles.main}>
                     <Link href='/'> 
                     <MdHome size={30} />
                      </Link>
-                   <span className={styles.slash}> /</span> <Link href='/'> Doctors </Link> <span className={styles.slash}> /</span><span className={styles.aboutus}> Dr. Precious Mawaya </span>
+                   <span className={styles.slash}> /</span> <Link href='/doctors'> Doctors </Link> <span className={styles.slash}> /</span><span className={styles.aboutus}> {name} </span>
                 </div>
             </div>
         </div>

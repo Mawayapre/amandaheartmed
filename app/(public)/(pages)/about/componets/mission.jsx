@@ -47,7 +47,7 @@ const Mission = () => {
                 <div className={styles.right}>
                     <div className={styles.image}>
                         <Image 
-                        src='/nurse.png'
+                        src='https://source.unsplash.com/featured/?pediatrician'
                         alt='doctor treating kid'
                         width={400}
                         height={300}

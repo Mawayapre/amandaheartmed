@@ -11,7 +11,7 @@ const Service = ({ params }) => {
     cardiology: {
       id: 'cardiology',
       title: "Cardiology Services",
-      image: "/mri.png",
+      image: "https://source.unsplash.com/featured/?heart",
       description: [
         "At Amanda Hospital, our cardiology department is committed to delivering exceptional care in the prevention, diagnosis, and treatment of heart-related conditions. We combine advanced medical technology with a patient-centered approach to ensure that every individual receives personalized attention and the highest standard of care. Our goal is not only to treat heart diseases but also to improve overall cardiovascular health and quality of life for our patients.",
 
@@ -38,7 +38,7 @@ const Service = ({ params }) => {
     'pediatrician': {
       id: 'pediatrician',
       title: "Pediatrician & Child Health Care",
-      image: "/mri.png",
+      image: "https://source.unsplash.com/featured/?pediatrician",
       description: [
         "At Amanda Hospital, our pediatric department is dedicated to providing comprehensive healthcare services for infants, children, and adolescents. We understand that children have unique medical needs and require specialized care from healthcare professionals trained in pediatric medicine. Our team of experienced pediatricians and child health specialists is committed to ensuring the healthy growth and development of every child in our community.",
 
@@ -65,7 +65,7 @@ const Service = ({ params }) => {
     'women-health': {
       id: 'women-health',
       title: "Women's Health Services",
-      image: "/mri.png",
+      image: "https://source.unsplash.com/featured/?womens-health",
       description: [
         "At Amanda Hospital, our women's health department provides comprehensive healthcare services designed specifically to address the unique medical needs of women at every stage of life. From adolescence through menopause and beyond, our experienced team of healthcare professionals is dedicated to promoting women's wellness, preventing disease, and treating conditions that affect women's health.",
 
@@ -92,7 +92,7 @@ const Service = ({ params }) => {
     'mental-health': {
       id: 'mental-health',
       title: "Mental Health & Rehabilitation Programs",
-      image: "/mri.png",
+      image: "https://source.unsplash.com/featured/?mental-health",
       description: [
         "At Amanda Hospital, our mental health department is dedicated to providing compassionate, evidence-based care for individuals struggling with mental health conditions and those in need of rehabilitation services. We understand that mental health is integral to overall wellness, and our team of psychiatrists, psychologists, and counselors are committed to helping patients achieve recovery and improve their quality of life.",
 
@@ -119,7 +119,7 @@ const Service = ({ params }) => {
     'ecg-cardiac': {
       id: 'ecg-cardiac',
       title: "ECG & Cardiac Echo Services",
-      image: "/mri.png",
+      image: "https://source.unsplash.com/featured/?electrocardiogram",
       description: [
         "At Amanda Hospital, our ECG and cardiac echo services provide advanced diagnostic capabilities for assessing heart function and identifying cardiac abnormalities. These non-invasive tests are essential tools in modern cardiology, allowing our cardiologists to diagnose heart conditions accurately and monitor patient progress effectively.",
 
@@ -146,7 +146,7 @@ const Service = ({ params }) => {
     '24-hour-monitoring': {
       id: '24-hour-monitoring',
       title: "24-Hour Cardiac Monitoring",
-      image: "/mri.png",
+      image: "https://source.unsplash.com/featured/?holter-monitor",
       description: [
         "At Amanda Hospital, our 24-hour cardiac monitoring services provide continuous surveillance of heart activity, allowing our cardiologists to detect irregular heartbeats, monitor medication effectiveness, and assess overall cardiac health in patients' daily lives. This extended monitoring provides valuable information that a single ECG cannot capture.",
 
@@ -173,7 +173,7 @@ const Service = ({ params }) => {
     'laboratory': {
       id: 'laboratory',
       title: "Laboratory Services",
-      image: "/mri.png",
+      image: "https://source.unsplash.com/featured/?laboratory",
       description: [
         "At Amanda Hospital, our state-of-the-art clinical laboratory provides comprehensive diagnostic testing services essential for accurate diagnosis and effective patient care. Our fully equipped facility utilizes the latest technology and follows strict quality standards to ensure reliable and timely test results.",
 
@@ -200,7 +200,7 @@ const Service = ({ params }) => {
     'pharmacy': {
       id: 'pharmacy',
       title: "Pharmacy Services",
-      image: "/mri.png",
+      image: "https://source.unsplash.com/featured/?pharmacy",
       description: [
         "At Amanda Hospital, our in-house pharmacy provides convenient access to prescribed medications while ensuring the highest standards of pharmaceutical care. Our experienced team of pharmacists and pharmacy technicians is dedicated to supporting patient health by providing quality medications and professional pharmaceutical services.",
 

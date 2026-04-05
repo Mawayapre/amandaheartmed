@@ -6,38 +6,9 @@ import Link from 'next/link'
 import { FaArrowRight } from "react-icons/fa6";
 import { IoMdStar } from "react-icons/io";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
+import { doctors } from '../../../data/doctors'
 
 const Doctors = () => {
-
-   const doctors = [
-    {
-        name: 'Dr. Precious Mawaya',
-        specialty: 'Opthalmologist',
-        icon: 'IoIosStarOutline  size={16}',
-        image: '/nurse.png',
-        reviews: '156 reviews'
-    },
-    {
-        name: 'Dr. Patrick Viella',
-        specialty: 'Neuro Surgeon',
-        image: '/nurse.png',
-        reviews: '156 reviews'
-    }
-    ,
-    {
-        name: 'Dr. Harry Kazembe',
-        specialty: 'Pediatrician',
-        image: '/nurse.png',
-        reviews: '129 reviews'
-    }
-    ,
-    {
-        name: 'Dr. Stuart Sindani',
-        specialty: 'Gynecologist',
-        image: '/nurse.png',
-        reviews: '140 reviews'
-    }
-   ] 
 
 
   return (
@@ -78,7 +49,7 @@ const Doctors = () => {
                         </div>
 
                         <div className={styles.link}>
-                            <Link href='/doctors/1'>Learn More
+                            <Link href={`/doctors/${doc.id}`}>Learn More
                             <FaArrowRight size={16}/>
                             </Link>
                         </div>

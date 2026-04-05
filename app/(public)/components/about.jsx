@@ -40,7 +40,7 @@ const About = () => {
                     </div>
 
                     <div className={styles.link}>
-                    <Link href='#'>Discover More
+                    <Link href='/about'>Discover More
                     <FaArrowRight size={20}/>
                     </Link>
                     </div>
@@ -64,7 +64,7 @@ const About = () => {
                     </div>
 
                     <div className={styles.link}>
-                    <Link href='#'>Discover More
+                    <Link href='/about'>Discover More
                     <FaArrowRight size={20}/>
                     </Link>
                     </div>
@@ -88,7 +88,7 @@ const About = () => {
                     </div>
 
                     <div className={styles.link}>
-                    <Link href='#'>Discover More
+                    <Link href='/about'>Discover More
                     <FaArrowRight size={20}/>
                     </Link>
                     </div>

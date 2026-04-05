@@ -17,7 +17,7 @@ const Blogs = () => {
           date: "12 March 2026",
           content:
             "This article explores current approaches to eye care, common vision challenges, and the importance of early diagnosis in preserving long-term sight health.",
-          image: "ophthalmology-eye-care.jpg"
+          image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=300&fit=crop&auto=format&q=80"
         },
         {
           title: "Advances in Brain and Nervous System Care",
@@ -26,7 +26,7 @@ const Blogs = () => {
           date: "18 March 2026",
           content:
             "An in-depth look at neurological conditions, surgical solutions, and how specialized care improves patient outcomes in brain and spinal treatments.",
-          image: "neurosurgery-brain-care.jpg"
+          image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=300&fit=crop&auto=format&q=80"
         },
         {
           title: "Caring for Children’s Health at Every Stage",
@@ -35,7 +35,7 @@ const Blogs = () => {
           date: "25 March 2026",
           content:
             "This blog focuses on child healthcare, growth milestones, disease prevention, and the role of regular checkups in a child’s development.",
-          image: "pediatric-child-health.jpg"
+          image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=300&fit=crop&auto=format&q=80"
         },
         {
           title: "Supporting Women’s Health Through Expert Care",
@@ -44,7 +44,7 @@ const Blogs = () => {
           date: "30 March 2026",
           content:
             "An informative discussion on women’s reproductive health, preventive care, and the importance of professional medical guidance throughout life stages.",
-          image: "gynecology-women-health.jpg"
+          image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=300&fit=crop&auto=format&q=80"
         }
       ];
 
@@ -74,8 +74,8 @@ const Blogs = () => {
 
                         <div className={styles.image}>
                             <Image
-                            src='/nurse.png'
-                            alt='nurse'
+                            src={blog.image}
+                            alt={blog.title}
                             width={400}
                             height={300}
                             />
@@ -101,7 +101,7 @@ const Blogs = () => {
                         </div>
 
                         <div className={styles.link}>
-                            <Link href='/blogs/1'>Read more 
+                            <Link href={`/blogs/${index}`}>Read more
                             <FaArrowRight size={16}/>
                             </Link>
                         </div>

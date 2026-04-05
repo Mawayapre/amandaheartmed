@@ -23,7 +23,7 @@ const Hero = () => {
 
                 <div className={styles.more}>
                     <div className={styles.link}>
-                        <Link href='/#'>Discover More
+                        <Link href='/about'>Discover More
                         <FaArrowRight size={20}/>
                         </Link>
                     </div>

@@ -19,7 +19,7 @@ const Hero = () => {
 
             <div className={styles.image}>
                 <Image
-                src='/aboutTopSection.png'
+                src='https://source.unsplash.com/featured/?hospital'
                 alt='Amanda HeartMed Hospital'
                 width={400}
                 height={300}

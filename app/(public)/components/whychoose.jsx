@@ -65,7 +65,7 @@ const WhyChooseUs = () => {
             </div>
 
             <div className={styles.link}>
-            <Link href='#'>
+            <Link href='/appointment'>
               Book Appointment <FaArrowRight size={16}/>
             </Link>
             </div>

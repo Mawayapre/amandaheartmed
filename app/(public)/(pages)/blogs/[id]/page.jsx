@@ -4,11 +4,11 @@ import Details from './components/details'
 import Blogs from '../../../components/blogs'
 
 
-const Page = () => {
+const Page = ({ params }) => {
   return (
     <div>
-        <TopSection />
-        <Details />
+        <TopSection id={Number(params.id)} />
+        <Details id={Number(params.id)} />
         <Blogs />
     </div>
   )
