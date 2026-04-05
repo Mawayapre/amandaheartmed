@@ -9,8 +9,6 @@ import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { doctors } from '../data/doctors'
 
 const Doctors = () => {
-
-
   return (
     <div className={styles.container}>
         <div className={styles.title}>

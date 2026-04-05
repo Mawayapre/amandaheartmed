@@ -1,0 +1,15 @@
+.top{
+    position: fixed;
+    right: 20px;
+    top: 90%;
+    cursor: pointer;
+    background-color: rgba(7, 129, 137, 0.846);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 1rem;
+    border: none;
+
+}

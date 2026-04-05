@@ -4,6 +4,7 @@ import "../globals.css";
 import NavLinks from "./components/navLinks";
 import Contacts from "./components/contacts";
 import Footer from './components/footer'
+import BackToTop from './components/backaToTop';
 
 // Main text font
 const roboto = Roboto({
@@ -38,6 +39,7 @@ export default function RootLayout({
         <Contacts />
         <NavLinks />
         {children}
+        <BackToTop />
         <Footer />
       </body>
     </html>
