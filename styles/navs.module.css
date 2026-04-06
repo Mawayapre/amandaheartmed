@@ -180,11 +180,10 @@
 }
 
 .logo {
-    width: 8rem;
-    height: 8rem;
+    width: 5rem;
+    height: 5rem;
     overflow: hidden;
     z-index: 9999999;
-    padding: 1rem;
 }
 
 .logo img{
