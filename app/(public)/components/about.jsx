@@ -48,7 +48,7 @@ const About = () => {
           <div className={styles.card}>
             <div className={styles.image}>
               <Image
-                src='/AdvancedHeartCareServices.png'
+                src='/advanced.png'
                 alt='cardiology healthcare service'
                 width={400}
                 height={300}

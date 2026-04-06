@@ -26,7 +26,7 @@ const Navs = () => {
                 <div className={`${styles.logo} ${menuOpen ? styles.hideLogo : ''}`}>
                     <Link href={'/'}>
                         <Image
-                            src={'/log.png'}
+                            src={'/logo.png'}
                             alt='logo'
                             width={400}
                             height={300}
@@ -43,7 +43,7 @@ const Navs = () => {
                 <div className={styles.logo}>
                     <Link href={'/'}>
                         <Image
-                            src={'/log.png'}
+                            src={'/logo.png'}
                             alt='logo'
                             width={400}
                             height={300}

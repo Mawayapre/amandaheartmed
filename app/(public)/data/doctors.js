@@ -33,7 +33,7 @@ export const doctors = [
     id: 'patrick-viella',
     name: 'Dr. Patrick Viella',
     specialty: 'Neurosurgeon',
-    image: '/doctors/habley.png',
+    image: '/doctors/patrick viella.jpg',
     reviews: '156 reviews',
     phone: '0981660455',
     email: 'amandaheartmed@gmail.com',
