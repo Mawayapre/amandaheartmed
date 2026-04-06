@@ -68,6 +68,7 @@
 
 .mobile {
     position: fixed;
+    overflow-y: scroll;
     top: 0;
     bottom: 0;
     left: 0;
@@ -90,7 +91,7 @@
     font-size: var(--font-size-h4);
     font-weight: 700;
     color: var(--bgcolor);
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     /* opacity: 0; */
 }
 

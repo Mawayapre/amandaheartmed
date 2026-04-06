@@ -49,13 +49,6 @@ const Footer = () => {
                 <FiFacebook />
               </a>
             </div>
-
-              <div className={styles.email}>
-                <Link href='/#'>
-                <MdOutlineMail />
-                </Link>
-              </div>
-
               <div className={styles.twitter}>
                 <Link href='/#'>
                 <FaXTwitter />
