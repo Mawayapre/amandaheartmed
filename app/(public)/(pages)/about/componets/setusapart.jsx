@@ -43,7 +43,7 @@ const WhatSetsUsApart = () => {
                     <div className={styles.left}>
                         <div className={styles.image}>
                             <Image 
-                                src='https://source.unsplash.com/featured/?nurse'
+                                src='/mri.png'
                                 alt='Amanda HeartMed medical staff'
                                 width={400}
                                 height={300}

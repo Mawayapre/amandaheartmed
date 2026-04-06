@@ -9,7 +9,7 @@ const Details = ({ id }) => {
 
 const blogsData = [
 {
-image: "https://images.unsplash.com/photo-1576091160550-112173f7f869?w=500&h=300&fit=crop",
+image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=300&fit=crop&auto=format&q=80",
 title: "Understanding Modern Eye Care and Vision Health",
 date: "12 March 2026",
 specialty: "Ophthalmology",
@@ -19,7 +19,7 @@ paragraph2: `One of the most important aspects of modern eye care is regular eye
 paragraph3: `Another important component of modern ophthalmology is patient education. Doctors work closely with patients to help them understand how their daily routines affect their vision. By learning how to recognize early warning signs and adopting healthy habits, individuals can significantly reduce their risk of developing serious eye problems. Ultimately, maintaining good vision requires a combination of professional care, healthy lifestyle choices, and regular medical checkups. With continued advancements in medical technology and increased awareness of preventive care, modern eye care continues to improve the quality of life for millions of people around the world.`
 },
 {
-image: "https://images.unsplash.com/photo-1576091160379-112f32778055?w=500&h=300&fit=crop",
+image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=300&fit=crop&auto=format&q=80",
 title: "Advances in Brain and Nervous System Care",
 date: "18 March 2026",
 specialty: "Neurosurgery",
@@ -29,7 +29,7 @@ paragraph2: `Neurological conditions can range from chronic pain and movement di
 paragraph3: `The future of neurosurgery looks promising with ongoing research into regenerative medicine, neural implants, and personalized treatment approaches. As technology continues to advance, neurosurgeons are better equipped to tackle conditions that previously had limited treatment options. Patient education and early intervention remain crucial in achieving the best possible outcomes for individuals with neurological conditions.`
 },
 {
-image: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=500&h=300&fit=crop",
+image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=300&fit=crop&auto=format&q=80",
 title: "Caring for Children's Health at Every Stage",
 date: "25 March 2026",
 specialty: "Pediatrics",
@@ -39,7 +39,7 @@ paragraph2: `Prevention is a cornerstone of pediatric medicine. Regular checkups
 paragraph3: `Parents and caregivers play an essential role in supporting their child's health and development. Pediatricians work collaboratively with families to provide education, guidance, and support throughout childhood. As children grow and transition into adulthood, pediatricians help prepare them for independence while addressing any lingering health concerns. The goal is to ensure every child reaches their full potential with optimal health and wellbeing.`
 },
 {
-image: "https://images.unsplash.com/photo-1631217b5f58-ae8d60536ffd?w=500&h=300&fit=crop",
+image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=300&fit=crop&auto=format&q=80",
 title: "Supporting Women's Health Through Expert Care",
 date: "30 March 2026",
 specialty: "Gynecology",

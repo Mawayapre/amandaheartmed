@@ -1,14 +1,14 @@
 'use client'
 
 import styles from '../../../styles/navs.module.css'
-import { usePathname, useRouter } from "next/navigation"
+import { usePathname } from "next/navigation"
 import Link from 'next/link'
 import { IoMdClose, IoMdMenu } from "react-icons/io";
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 const Navs = () => {
     const pathname = usePathname();
-    const router = useRouter();
     const [menuOpen, setMenuOpen] = useState(false);
 
     useEffect(() => {
@@ -18,21 +18,37 @@ const Navs = () => {
 
     const handleHamburger = () => {
         setMenuOpen(prev => !prev);
-    }
+    };
+
     return (
         <div className={styles.header}>
             <div className={styles.menu}>
-                <div className={styles.logo}>
-                    Amanda
+                <div className={`${styles.logo} ${menuOpen ? styles.hideLogo : ''}`}>
+                    <Link href={'/'}>
+                        <Image
+                            src={'/log.png'}
+                            alt='logo'
+                            width={400}
+                            height={300}
+                        />
+                    </Link>
                 </div>
+
                 <button onClick={handleHamburger}>
-                    {menuOpen ? <IoMdClose size={30}/> : <IoMdMenu size={30} />}
+                    {menuOpen ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
                 </button>
             </div>
 
             <div className={styles.wrappper}>
                 <div className={styles.logo}>
-                    <h1>Amanda</h1>
+                    <Link href={'/'}>
+                        <Image
+                            src={'/log.png'}
+                            alt='logo'
+                            width={400}
+                            height={300}
+                        />
+                    </Link>
                 </div>
 
                 <div className={styles.navs}>
@@ -60,7 +76,16 @@ const Navs = () => {
 
                 <div className={styles.card}>
                     <div className={styles.top}>
-                        <div className={styles.logo}>AMANDA</div>
+                        <div className={styles.logo}>
+                            <Link href={'/'}>
+                                <Image
+                                    src={'/logo.png'}
+                                    alt='logo'
+                                    width={400}
+                                    height={300}
+                                />
+                            </Link>
+                        </div>
                     </div>
 
                     <div className={styles.links}>
@@ -80,7 +105,7 @@ const Navs = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Navs;

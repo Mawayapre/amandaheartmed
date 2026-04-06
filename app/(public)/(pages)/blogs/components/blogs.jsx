@@ -26,7 +26,7 @@ const Blogs = () => {
           date: "18 March 2026",
           content:
             "An in-depth look at neurological conditions, surgical solutions, and how specialized care improves patient outcomes in brain and spinal treatments.",
-          image: "https://images.unsplash.com/photo-1576091160399-112f32778055?w=500&h=300&fit=crop&auto=format&q=80"
+          image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=300&fit=crop&auto=format&q=80"
         },
         {
           title: "Caring for Children’s Health at Every Stage",
@@ -44,7 +44,7 @@ const Blogs = () => {
           date: "30 March 2026",
           content:
             "An informative discussion on women’s reproductive health, preventive care, and the importance of professional medical guidance throughout life stages.",
-          image: "https://images.unsplash.com/photo-1576091160399-112f32778055?w=500&h=300&fit=crop&auto=format&q=80"
+          image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=300&fit=crop&auto=format&q=80"
         }
       ];
 

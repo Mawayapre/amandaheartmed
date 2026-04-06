@@ -83,16 +83,15 @@
 }
 
 .mobile .card {
-    padding: 4rem 2rem 2rem 2rem;
+    padding: 2rem 1rem;
 }
 
 .mobile .logo {
     font-size: var(--font-size-h4);
     font-weight: 700;
     color: var(--bgcolor);
-    margin-bottom: 4rem;
-    opacity: 0;
-    
+    margin-bottom: 2rem;
+    /* opacity: 0; */
 }
 
 .mobile .links {
@@ -114,6 +113,8 @@
     border-bottom: solid 2px rgba(256, 256, 256, .5);
     padding-bottom: 2rem;
 }
+
+
 
 .mobile .links ul li a {
     text-decoration: none;
@@ -178,11 +179,20 @@
     background-color: var(--primary);
 }
 
-.menu .logo {
-    font-size: var(--font-size-h4);
-    font-weight: 700;
-    color: var(--light-high);
+.logo {
+    width: 8rem;
+    height: 8rem;
+    overflow: hidden;
     z-index: 9999999;
+    padding: 1rem;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .menu button {
@@ -217,4 +227,9 @@
         display: block;
     }
 
+}
+
+.hideLogo {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
 }

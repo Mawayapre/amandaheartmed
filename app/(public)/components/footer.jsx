@@ -7,6 +7,7 @@ import { GrLocation } from "react-icons/gr";import { FaXTwitter } from "react-ic
 import { FaInstagram } from "react-icons/fa";
 import { FiFacebook } from "react-icons/fi";
 import { FiPhone } from "react-icons/fi";
+import Image from 'next/image';
 
 
 const Footer = () => {
@@ -14,7 +15,18 @@ const Footer = () => {
     <div className={styles.container}>
 
         <div className={styles.appointment}>
-        <p> Get Appointment For Your <br /> Medical Services </p>
+          <div className={styles.logo}>
+            <div className={styles.image}>
+            <Image
+              src={'/logo.png'}
+              alt='logo'
+              width={400}
+              height={300}
+            />
+            </div>
+            <p> Get Appointment For Your <br /> Medical Services </p>
+          </div>
+        
         <Link href='/appointment'>Book Appointment</Link>
         </div>
         <div className={styles.wrapper}>
@@ -28,9 +40,19 @@ const Footer = () => {
             </div>
 
             <div className={styles.socialLinks}>
-              <div className={styles.facebook}>
-                <Link href='/#'>
+            <div className={styles.facebook}>
+              <a 
+                href="https://www.facebook.com/profile.php?id=61580317654201" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <FiFacebook />
+              </a>
+            </div>
+
+              <div className={styles.email}>
+                <Link href='/#'>
+                <MdOutlineMail />
                 </Link>
               </div>
 

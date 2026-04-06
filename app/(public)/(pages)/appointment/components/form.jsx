@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { FaRegDotCircle, FaHeartbeat, FaUserMd, FaHospital } from 'react-icons/fa';
+import { FaRegDotCircle, FaHeartbeat, FaUserMd, FaHospital, FaAngleDoubleRight } from 'react-icons/fa';
 import { MdMonitorHeart } from 'react-icons/md';
 import { GiMedicines } from 'react-icons/gi';
 import { TbTestPipe } from 'react-icons/tb';
@@ -8,6 +8,7 @@ import { RiMentalHealthLine } from 'react-icons/ri';
 import { FaStethoscope } from 'react-icons/fa';
 import { DayPicker } from 'react-day-picker';
 import styles from '@/styles/appointment/calendar.module.css';
+import { FaAngleLeft, FaAngleRight, FaCheck } from 'react-icons/fa6';
 
 const SERVICES = [
   {
@@ -241,7 +242,7 @@ const Form = () => {
                 disabled={!canNext()}
                 onClick={() => setStep(1)}
               >
-                Choose Date →
+                Choose Date <FaAngleRight />
               </button>
             </div>
           </div>
@@ -297,14 +298,14 @@ const Form = () => {
 
             <div className={styles.btnRow}>
               <button className={styles.btnBack} onClick={() => setStep(0)}>
-                ← Back
+                <FaAngleLeft /> Back
               </button>
               <button
                 className={styles.btnNext}
                 disabled={!canNext()}
                 onClick={() => setStep(2)}
               >
-                Patient Details →
+                Patient Details <FaAngleRight />
               </button>
             </div>
           </div>
@@ -390,14 +391,14 @@ const Form = () => {
 
             <div className={styles.btnRow}>
               <button className={styles.btnBack} onClick={() => setStep(1)}>
-                ← Back
+                <FaAngleLeft /> Back
               </button>
               <button
                 className={styles.btnNext}
                 disabled={!canNext()}
                 onClick={() => setStep(3)}
               >
-                Review →
+                Review <FaAngleRight />
               </button>
             </div>
           </div>
@@ -461,7 +462,7 @@ const Form = () => {
                 className={`${styles.btnNext} ${styles.btnSubmit}`}
                 onClick={() => setSubmitted(true)}
               >
-                Confirm Booking ✓
+                Confirm Booking <FaCheck />
               </button>
             </div>
           </div>
